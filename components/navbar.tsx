@@ -1,5 +1,4 @@
 "use client";
-/* eslint-disable */
 import {
   Navbar as NextUINavbar,
   NavbarContent,
@@ -53,10 +52,10 @@ export const Navbar = () => {
             <Image
               src="/indianmarket-logo.png"
               alt="indianmarket-logo"
-              height={75}
-              width={150}
+              height={70}
+              width={130}
               loading="lazy"
-              className="dark:invert-0 invert font-bold text-inherit text-lg"
+              className="dark:invert-0 w-auto h-auto invert font-bold text-inherit text-lg"
             />
           </NextLink>
         </NavbarBrand>

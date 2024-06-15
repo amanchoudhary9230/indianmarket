@@ -1,5 +1,4 @@
 "use client";
-/* eslint-disable */
 
 import { Link } from "@nextui-org/link";
 import { button as buttonStyles } from "@nextui-org/theme";
