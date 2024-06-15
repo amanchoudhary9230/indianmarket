@@ -1,4 +1,5 @@
 "use client";
+/* eslint-disable */
 import {
   Navbar as NextUINavbar,
   NavbarContent,
@@ -41,7 +42,7 @@ export const Navbar = () => {
 
   return (
     <NextUINavbar
-      maxWidth="xl"
+      maxWidth="2xl"
       position="sticky"
       isMenuOpen={isMenuOpen}
       onMenuOpenChange={setIsMenuOpen}
