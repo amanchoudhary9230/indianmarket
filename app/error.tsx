@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
+import { Metadata } from "next";
 
 export default function Error({
   error,
