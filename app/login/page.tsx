@@ -16,7 +16,7 @@ export default function Login() {
   };
   return (
     <div className="w-full rounded-none md:rounded-2xl">
-      <h2 className="font-bold text-xl">
+      <h2 className="font-bold md:text-2xl text-xl">
         Login to{" "}
         <span className="bg-clip-text text-transparent bg-gradient-to-b from-[#FF72E1] to-[#F54C7A]">
           IndianMarket

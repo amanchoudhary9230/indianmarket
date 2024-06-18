@@ -11,7 +11,7 @@ export default function Contact() {
   };
   return (
     <div className="w-full rounded-none md:rounded-2xl">
-      <h2 className="font-bold text-xl">
+      <h2 className="font-bold md:text-2xl text-xl">
         Get in Touch with{" "}
         <span className="bg-clip-text text-transparent bg-gradient-to-b from-[#52b69a] to-[#1a759f]">
           IndianMarket
