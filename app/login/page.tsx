@@ -3,10 +3,12 @@ import React from "react";
 import { Label } from "@/components/ui/Label";
 import { Input } from "@/components/ui/Input";
 import { cn } from "@/config/cn";
+import NextLink from "next/link";
 import {
   IconBrandFacebook,
   IconBrandGithub,
   IconBrandGoogle,
+  IconUserCircle,
 } from "@tabler/icons-react";
 
 export default function Login() {
@@ -51,6 +53,14 @@ export default function Login() {
         <div className="bg-gradient-to-r from-transparent via-neutral-300 dark:via-neutral-700 to-transparent my-8 h-[1px] w-full" />
 
         <div className="flex flex-col space-y-4">
+          <NextLink
+            href={"/signup"}
+            className="hidden relative group/btn max-lg:flex max-md:hidden space-x-2 items-center justify-start px-4 w-full rounded-md h-10 font-medium shadow-input bg-gray-50 dark:bg-zinc-900 dark:shadow-[0px_0px_1px_1px_var(--neutral-800)]"
+          >
+            <IconUserCircle className="h-4 w-4" />
+            <span className="text-sm">Signup</span>
+            <BottomGradient />
+          </NextLink>
           <button
             className=" relative group/btn flex space-x-2 items-center justify-start px-4 w-full rounded-md h-10 font-medium shadow-input bg-gray-50 dark:bg-zinc-900 dark:shadow-[0px_0px_1px_1px_var(--neutral-800)]"
             type="submit"

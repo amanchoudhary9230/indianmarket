@@ -33,7 +33,7 @@ export const Navbar = () => {
       labelPlacement="outside"
       placeholder="Search..."
       startContent={
-        <SearchIcon className="text-base text-default-400 pointer-events-none flex-shrink-0" />
+        <SearchIcon className="text-base text-default-400 pointer-events-none mr-2 flex-shrink-0" />
       }
       type="search"
     />
@@ -53,9 +53,9 @@ export const Navbar = () => {
               src="/indianmarket-logo.png"
               alt="indianmarket-logo"
               height={70}
-              width={130}
+              width={155}
               loading="lazy"
-              className="dark:invert-0 w-auto h-auto invert font-bold text-inherit text-lg"
+              className="dark:invert-0 invert font-bold text-inherit text-lg"
             />
           </NextLink>
         </NavbarBrand>
